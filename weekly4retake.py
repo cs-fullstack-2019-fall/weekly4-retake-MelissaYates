@@ -57,23 +57,23 @@
 # print(f'Board game: {boardgame1.name} Price:{boardgame1.price} Piece Count:{boardgame1.pieceCount} Publisher{boardgame1.publisher}, \nBoard game:{boardgame2.name} Price:{boardgame2.price} Piece count:{boardgame2.pieceCount} Publisher:{boardgame2.publisher}, \nBoard game:{boardgame3.name} Price:{boardgame3.price} Piece count:{boardgame3.pieceCount} Publisher:{boardgame3.publisher}')
 # # 8. Create a function that takes a string array and returns a string array with the letter 's' at the end of each element.
 # # Call the function.
-#
-# def string_array():
-#     s = ["Apple", "Banana", "Pear","Melon"]
-#     new_string = []
-#     for i in s:
-#
-# string_array()
+
+def string_array():
+    s = ["Apple", "Banana", "Pear","Melon"]
+    for i in s:
+        print(i+"s")
+
+string_array()
 # 9. Create a function that has a parameter of an integer array and
 # returns only the positive numbers in the array. Call the function
 
-def arrayOfNumbers(list_numbers):
-    for i in numbers:
-        return i>0
-print(i)
-
-numbers = [-1,2,5,0,-4]
-arrayOfNumbers(numbers)
+# def arrayOfNumbers(list_numbers):
+#     for i in numbers:
+#         return i>0
+# print(i)
+#
+# numbers = [-1,2,5,0,-4]
+# arrayOfNumbers(numbers)
 
 # 10. Create a Puppy class. It should have properties name and color.
 # Create a program that will ask a user to enter the name, then the color of a puppy until they enter 'q' to quit.
